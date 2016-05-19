@@ -12,10 +12,10 @@
     height:50px;
 }
 
-li .active
+/*li .active
 {
     background-color: #fec503;
-}
+}*/
 
 .teste
 {
@@ -23,7 +23,7 @@ li .active
     
 }
 
-h1,
+/*h1,
 h2,
 h3,
 h4,
@@ -32,5 +32,5 @@ h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
-}
+}*/
 

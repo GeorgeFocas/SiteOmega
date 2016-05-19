@@ -241,8 +241,7 @@ if (typeof jQuery === 'undefined') {
     } else {
       this.$element.attr('aria-pressed', !this.$element.hasClass('active'))
       this.$element.toggleClass('active')
-      }
- 
+    }
   }
 
 
