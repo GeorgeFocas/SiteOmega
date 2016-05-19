@@ -1,4 +1,36 @@
-#logo{
-  background-image: url(../../img/Logo-01.png);
-  
+#middlepage {
+    
+    background-image: url('/assets/img/Logo-01.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 800px;
+    margin-top:90px;
 }
+
+#brand-image {
+    /*background-image: url('../img/loguinho-01.png');*/
+    height:50px;
+}
+
+li .active
+{
+    background-color: #fec503;
+}
+
+.teste
+{
+    color:green;
+    
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
