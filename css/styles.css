@@ -1,0 +1,102 @@
+#middlepage {
+    background-image: url('../img/Logo-01.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    height: 800px !important;
+    margin-top: 90px !important;
+}
+
+header
+{
+	/*background-image:url('/img/Logo-01.png');*/
+	background-attachment:scroll !important;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	background-size:cover;
+	-o-background-size:cover;
+	text-align:center;
+	color:#fff;
+}
+
+
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    margin-top: 750px;
+    /*margin-top: 2px;*/
+    padding: 7px 16px;
+
+    /*border: 2px solid #fff;*/
+    border: 2px solid #486a7c;
+    border-radius: 100%!important;
+    font-size: 40px;
+    /*color: #fff;*/
+    color:#486a7c;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+
+    font-weight: 400;
+}
+
+.btn-circle:hover,
+.btn-circle:focus {
+    outline: 0;
+    /*color: #fff;*/
+      color:#5679d8;
+    /*background: rgba(255,255,255,.1);*/
+}
+
+.btn-circle i.animated {
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+}
+
+.btn-circle:hover i.animated {
+    -webkit-animation-name: pulse;
+    -moz-animation-name: pulse;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}
+
+
+@-webkit-keyframes pulse {    
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@-moz-keyframes pulse {    
+    0% {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -moz-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+}
