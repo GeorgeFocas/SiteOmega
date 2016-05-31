@@ -1,73 +1,102 @@
-#middlepage {
-    background-image: url('../img/Logo-01.png') !important;
-    background-repeat: no-repeat !important;
-    background-position: center !important;
-    height: 800px !important;
-    margin-top: 90px !important;
+@media (min-width:768px) {
+
+    #middlepage {
+        background-image: url('../img/Logo-01-minha.png') !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        height: 600px !important;
+        margin-top: 85px !important;
+    }
+
+    .btn-circle {
+        width: 70px;
+        height: 70px;
+        margin-top: 566px;
+        /*margin-top: 2px;*/
+        padding: 7px 16px;
+        /*border: 2px solid #fff;*/
+        border: 2px solid #486a7c;
+        border-radius: 100% !important;
+        font-size: 40px;
+        /*color: #fff;*/
+        color: #486a7c;
+        background: 0 0;
+        -webkit-transition: background .3s ease-in-out;
+        -moz-transition: background .3s ease-in-out;
+        transition: background .3s ease-in-out;
+        font-weight: 400;
+    }
 }
 
-header
-{
-	/*background-image:url('/img/Logo-01.png');*/
-	background-attachment:scroll !important;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	background-size:cover;
-	-o-background-size:cover;
-	text-align:center;
-	color:#fff;
+@media (min-width:320px) and (max-width:768px) {
+    #middlepage {
+        background-image: url('../img/333333333333333-01.png') !important;
+        background-repeat: no-repeat !important;
+        background-position: center !important;
+        height: 450px !important;
+        margin-top: 80px !important;
+    }
 }
 
-
-.btn-circle {
-    width: 70px;
-    height: 70px;
-    margin-top: 750px;
-    /*margin-top: 2px;*/
-    padding: 7px 16px;
-
-    /*border: 2px solid #fff;*/
-    border: 2px solid #486a7c;
-    border-radius: 100%!important;
-    font-size: 40px;
-    /*color: #fff;*/
-    color:#486a7c;
-    background: 0 0;
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
-
-    font-weight: 400;
+header {
+    /*background-image:url('/img/Logo-01.png');*/
+    background-attachment: scroll !important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    text-align: center;
+    color: #fff;
 }
 
-.btn-circle:hover,
-.btn-circle:focus {
-    outline: 0;
-    /*color: #fff;*/
-      color:#5679d8;
-    /*background: rgba(255,255,255,.1);*/
+@media (min-width:320px) and (max-width:768px) {
+    .btn-circle {
+        width: 60px;
+        height: 60px;
+        margin-top: 420px;
+        /*margin-top: 2px;*/
+        padding: 5px 16px;
+        /*border: 2px solid #fff;*/
+        border: 2px solid #486a7c;
+        border-radius: 100% !important;
+        font-size: 37px;
+        /*color: #fff;*/
+        color: #486a7c;
+        background: 0 0;
+        -webkit-transition: background .3s ease-in-out;
+        -moz-transition: background .3s ease-in-out;
+        transition: background .3s ease-in-out;
+        font-weight: 400;
+    }
 }
+    .btn-circle:hover,
+    .btn-circle:focus {
+        outline: 0;
+        /*color: #fff;*/
+        color: #5679d8;
+        /*background: rgba(255,255,255,.1);*/
+    }
 
-.btn-circle i.animated {
-    -webkit-transition-property: -webkit-transform;
-    -webkit-transition-duration: 1s;
-    -moz-transition-property: -moz-transform;
-    -moz-transition-duration: 1s;
-}
+    .btn-circle i.animated {
+        -webkit-transition-property: -webkit-transform;
+        -webkit-transition-duration: 1s;
+        -moz-transition-property: -moz-transform;
+        -moz-transition-duration: 1s;
+    }
 
-.btn-circle:hover i.animated {
-    -webkit-animation-name: pulse;
-    -moz-animation-name: pulse;
-    -webkit-animation-duration: 1.5s;
-    -moz-animation-duration: 1.5s;
-    -webkit-animation-iteration-count: infinite;
-    -moz-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    -moz-animation-timing-function: linear;
-}
+    .btn-circle:hover i.animated {
+        -webkit-animation-name: pulse;
+        -moz-animation-name: pulse;
+        -webkit-animation-duration: 1.5s;
+        -moz-animation-duration: 1.5s;
+        -webkit-animation-iteration-count: infinite;
+        -moz-animation-iteration-count: infinite;
+        -webkit-animation-timing-function: linear;
+        -moz-animation-timing-function: linear;
+    }
 
 
-@-webkit-keyframes pulse {    
+@-webkit-keyframes pulse {
     0% {
         -webkit-transform: scale(1);
         transform: scale(1);
@@ -84,7 +113,7 @@ header
     }
 }
 
-@-moz-keyframes pulse {    
+@-moz-keyframes pulse {
     0% {
         -moz-transform: scale(1);
         transform: scale(1);
