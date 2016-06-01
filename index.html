@@ -38,8 +38,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <!---->
-                <a class="navbar-brand page-scroll" href="#page-top"><img src="img/escalada-peq.png" class="img-responsive top-left" /></a>
+                <a class="navbar-brand page-scroll" href="#page-top"><img src="img/loguinho-01-teste-02.png" class="img-responsive img-centered" alt=""></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -204,7 +203,7 @@
                 </div>
             </div>
             <div class="row">
-                <form name="sentMessage" id="contactForm" novalidate action="sendmai.php" enctype="multipart/form-data">
+                <form name="sentMessage" id="sendResumeForm" action="sendmail.php" method="post" enctype="multipart/form-data">
                     <div class="row">
                         <div class="col-lg-offset-2 col-md-8 col-lg-offset-2 ">
                             <div class="form-group">
@@ -219,7 +218,7 @@
                             </div>
                             <div class="form-group">
                                 <label class="control-label" for="email">Seu Email *</label>
-                                <input type="email" class="form-control" name="name" id="email" required data-validation-required-message="Por favor, preencha com seu Email.">
+                                <input type="email" class="form-control" name="email" id="email" required data-validation-required-message="Por favor, preencha com seu Email.">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>
@@ -247,21 +246,21 @@
                         <div class="row">
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Seu Nome completo *" id="name" required data-validation-required-message="Por favor, preencha com seu nome completo">
+                                    <input type="text" class="form-control" placeholder="Seu Nome completo *" name="name" required data-validation-required-message="Por favor, preencha com seu nome completo">
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Seu Email *" id="email" required data-validation-required-message="Por favor, preencha com seu Email.">
+                                    <input type="email" class="form-control" placeholder="Seu Email *" name="email" required data-validation-required-message="Por favor, preencha com seu Email.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="form-group">
-                                    <input type="tel" class="form-control" placeholder="Seu telefone *" id="phone" required data-validation-required-message="Por favor, informe seu telefone.">
+                                    <input type="tel" class="form-control" placeholder="Seu telefone *" name="phone" required data-validation-required-message="Por favor, informe seu telefone.">
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <textarea class="form-control" placeholder="Sua mensagem *" id="message" required data-validation-required-message="Sua mensagem para gente."></textarea>
+                                    <textarea class="form-control" placeholder="Sua mensagem *" name="message" required data-validation-required-message="Sua mensagem para gente."></textarea>
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
